@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
         var quantity = document.querySelector('input[name="quantity"]').value;
 
         // Формуємо повідомлення
-        var message = `Нове замовлення (піжама):\nІм'я та прізвище: ${name}\nТелефон: ${phone}\nКількість: ${quantity}`;
+        var message = `Нове замовлення (Халат):\nІм'я та прізвище: ${name}\nТелефон: ${phone}\nКількість: ${quantity}`;
 
         // Ваш токен та ID чату
         var token = '7999616759:AAHmGt7rWQHl-gZwGVydvINCi0Wodcl3H5w';
